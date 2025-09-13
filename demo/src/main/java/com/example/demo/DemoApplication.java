@@ -19,9 +19,9 @@ public class DemoApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) {
-        repo.save(new Person("Kai"));
+        repo.save(new Person("JJ"));
 
-        Person found = repo.findByName("Kai");
+        Person found = repo.findByName("JJ");
         System.out.println("Found person: " + found.getName());
     }
 }
